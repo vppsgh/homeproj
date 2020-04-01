@@ -1,0 +1,53 @@
+Work Goals:
+
+- Understand REPA
+  - Architecture
+  - Code
+  - Configuration
+  - Deployment
+
+Learning Goals:
+
+- Typesctript - 1
+- Angular     - 1
+- Web backend - 2
+- Continious deployment - 3
+- Jenkins     - 3
+- mongoDB     - 5
+- git/github  - 4
+- Docker      - 6
+- iptabes     - 6
+
+
+===========================
+Typescript / Angular
+- Understand login / WTS
+
+
+
+===========================
+
+Plan:
+
+- Finish Zanfir course - 1 day
+- Develop project with login of players that can play "chisla" - 7 days
+
+  1. Can be ugly, just functionality.
+  2. Start project from scratch (based on zanfir)
+  3. Should support login of players, in memory DB.
+  4. GIT - use pull requests/branches/tags
+
+- Complete typescript on-line cources - 4 days
+- Apply all knowledge to project.     - 2 days
+- Complete Angular on-line couurces   - 4 days
+- Apply all knowledge to project.     - 2 days
+
+- Deploy project on AWS               - 1 day
+- Use another web server              - 3 days
+- Use Jenkins for CD on AWS           - 4 days
+
+- deply on GITHUB                     - 3 days
+- use Mongo DB                        - 3 days
+
+
+
