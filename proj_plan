@@ -5,6 +5,7 @@ Work Goals:
   - Code
   - Configuration
   - Deployment
+  - RepaSvcPortal
 
 Learning Goals:
 
@@ -13,10 +14,11 @@ Learning Goals:
 - Web backend - 2
 - Continious deployment - 3
 - Jenkins     - 3
-- mongoDB     - 5
 - git/github  - 4
-- Docker      - 6
-- iptabes     - 6
+- mongoDB     - 5
+- iptables    - 6
+- Site security - 7
+- Docker      - 8
 
 
 ===========================
@@ -28,6 +30,19 @@ Typescript / Angular
 ===========================
 
 Plan:
+
+Apr 2  - Start
+Apr 10 - Finish "chisla" first draft
+Apr 17 - TS cources and apply for "chisla"
+Apr 24 - Angular cources and apply for "chisla"
+Apr 25 - Deploy chisla on "AWS"
+Apr 28 - Use different web server
+May 4  - Use Jenkins for CD deployment on AWS
+May 8  - Deploy on GitHub with CD
+May 12 - use Mongo DB in "chisla"
+May 17 - break my site
+May 24 - REPA architecure / SvcLib / Web Sockets / Repa deployment
+Jun 04 - Learn Doker
 
 - Finish Zanfir course - 1 day
 - Develop project with login of players that can play "chisla" - 7 days
@@ -46,8 +61,10 @@ Plan:
 - Use another web server              - 3 days
 - Use Jenkins for CD on AWS           - 4 days
 
-- deply on GITHUB                     - 3 days
+- deploy on GITHUB                    - 3 days
 - use Mongo DB                        - 3 days
-
+- Learn iptables / Break my site      - 5 days
+- Learn REPA architecture             - 10 days
+- Learn Docker                        - 5 days
 
 
