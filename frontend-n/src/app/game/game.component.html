@@ -1,0 +1,25 @@
+
+<div class="center">
+    <div class="chislo-field" *ngFor="let digit of showDigits; let i = index">{{digit}}</div>
+    <button class="button button1" (click)="resetGame()">Reset</button>
+</div>
+<hr width=370px>
+
+<div class="center" *ngFor="let attempt of attempts">
+    <div class="chislo-field" *ngFor="let digit of attempt.attemptDigits">{{digit}}</div>
+    <div class="result-field">
+        <div class="center">{{attempt.exact}}т</div>   
+    </div>
+    <div class="result-field">{{attempt.notExact}}п</div>
+</div>
+
+<hr width=370px>
+
+<div class="center" *ngIf="!gameOver">
+    <input class="input-field" maxlength="1" *ngFor="let digit of digits; let i = index" [value]="guess[i]" (input)="addGuessDigit(i, $event.target.value)">
+    <button class="button button1" [disabled]="!guessValid" (click)="submitGuess()">Submit</button>
+</div>
+
+<hr width=370px>
+<br><br>
+
